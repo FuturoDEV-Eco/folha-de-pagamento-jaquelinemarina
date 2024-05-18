@@ -13,7 +13,7 @@ function calcularIR(salarioBruto) {
         IR = salarioBruto * 0.275 - 884.96
     }
 
-    return IR
+    return Number(IR).toFixed(2)
 }
 
 module.exports = calcularIR
