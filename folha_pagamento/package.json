@@ -9,8 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "pdfkit": "^0.15.0"
   }
 }
